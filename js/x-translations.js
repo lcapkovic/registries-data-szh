@@ -2,7 +2,7 @@
 
 	angular.module('x-registries')
 	.config(['$translateProvider', function($translateProvider) {
-		$translateProvider.preferredLanguage('sk');
+		// $translateProvider.preferredLanguage('sk');
 		$translateProvider.translations('sk', {
 		"menu.stadium.title": "Športový objekt",
 		"menu.new.competition.lower.level.she":"Nová súťaž",
@@ -859,5 +859,17 @@
 		"schema.requisitions.basedata.responsetext":"Odpověď",
 		"schema.requisitions.basedata.modifiedOn":"Čas poslednej zmeny"
 	});
+
+	$translateProvider.fallbackLanguage(['sk','cz']);
+	$translateProvider.registerAvailableLanguageKeys(['en','cz','sk','ja'], {
+		'en_US': 'en',
+		'en_GB': 'en',
+		'cs': 'cz',
+		'sk': 'sk',
+		'ja': 'ja',
+		'*': 'sk' // must be last
+	});
+	$translateProvider.determinePreferredLanguage();
+	$translateProvider.useCookieStorage();
 }]);
 }(angular));
