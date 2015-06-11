@@ -859,5 +859,17 @@
 		"schema.requests.basedata.responsetext":"Odpověď",
 		"schema.requests.basedata.modifiedOn":"Čas poslednej zmeny"
 	});
+
+	$translateProvider.fallbackLanguage(['sk','cz']);
+	$translateProvider.registerAvailableLanguageKeys(['en','cz','sk','ja'], {
+		'en_US': 'en',
+		'en_GB': 'en',
+		'cs': 'cz',
+		'sk': 'sk',
+		'ja': 'ja',
+		'*': 'sk' // must be last
+	});
+	$translateProvider.determinePreferredLanguage();
+	$translateProvider.useCookieStorage();
 }]);
 }(angular));
