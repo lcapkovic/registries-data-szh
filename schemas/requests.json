@@ -303,7 +303,7 @@
 		"peopleRegistration": {
 			"extends": "uri://registries/people#models/person",
 			"title": "Registrácia osoby",
-			"xxtransCode": "schema.people.title",
+			"transCode": "schema.people.registration.title",
 			"table": "requests",
 			"security": {
 				"create": {
@@ -406,7 +406,7 @@
 		"dataChange-km": {
 			"extends": "uri://registries/people#models/fullperson-km",
 			"title": "Zmena údajov",
-			"xxtransCode": "schema.people.title",
+			"xxtransCode": "schema.requests.change.title",
 			"table": "requests",
 			"security": {
 				"create": {
@@ -836,7 +836,7 @@
 		"dataChangeApplicant": {
 			"new" : {
 				"title": "Zmena údajov",
-				"xxtransCode": "schema.people.title",
+				"transCode": "schema.requests.change.title",
 				"table": "requests",
 				"security": {
 					"create": {
@@ -1113,7 +1113,7 @@
 			},
 			"view" : {
 				"title": "Zmena údajov",
-				"xxtransCode": "schema.people.title",
+				"transCode": "schema.requests.change.title",
 				"table": "requests",
 				"security": {
 					"create": {
@@ -1149,7 +1149,7 @@
 			},
 			"search" : {
 				"title": "Zmena údajov",
-				"xxtransCode": "schema.people.title",
+				"transCode": "schema.requests.change.title",
 				"table": "requests",
 				"security": {
 					"create": {
