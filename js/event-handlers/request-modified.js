@@ -148,7 +148,7 @@
 		this.sendRequestCreated=function(email,serviceUrl,applicant,subject,requestUri){
 
 			var mailOptions = {
-				from : 'websupport@unionsoft.sk',
+				from : this.ctx.config.mails.requestSenderAddress,
 				to : email,
 				subject : '['+serviceUrl+'] Nová žiadosť',
 				html : renderService.render(renderModule.templates.REQUEST_CREATED_HTML,{applicant:applicant,subject:subject,serviceUrl:serviceUrl,requestUri:requestUri})
@@ -163,7 +163,7 @@
 		this.sendRequestModified=function(email,serviceUrl,modifier,subject,requestUri){
 
 			var mailOptions = {
-				from : 'websupport@unionsoft.sk',
+				from : this.ctx.config.mails.requestSenderAddress,
 				to : email,
 				subject : '['+serviceUrl+'] Upravená žiadosť',
 				html : renderService.render(renderModule.templates.REQUEST_UPDATED_HTML,{modifier:modifier,subject:subject,serviceUrl:serviceUrl,requestUri:requestUri})
