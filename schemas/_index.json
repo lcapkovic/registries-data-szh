@@ -22,5 +22,6 @@
 	"nomination.json",
 	"commonTypes.json",
 	"commonEnums.json",
-	"requests.json"
+	"requests.json",
+	"pastLogins.json"
 ]
