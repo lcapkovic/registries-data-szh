@@ -329,6 +329,7 @@
 		"schema.roster.aCoach":"Asistent trénera",
 		"schema.roster.listOfPlayers":"Zoznam hráčov",
 		"schema.roster.players":"Hráči",
+		"schema.roster.player":"Hráč",
 
 		"schema.ageCategory.title":"Veková kategória",
 		"schema.ageCategory.baseData": "Základné údaje",
@@ -394,7 +395,7 @@
 		"schema.refereeReport.listOfPlayersHome":"Zoznam hráčov - Domáci",
 		"schema.refereeReport.listOfPlayersGuest":"Zoznam hráčov - Hostia",
 		"schema.refereeReport.listOfPlayers.players":"Hráči",
-
+		"schema.refereeReport.listOfPlayers.player":"Hráč",
 
 		"schema.nomination.title":"Nominácia",
 		"schema.nomination.baseData":"Základné informácie",
@@ -408,6 +409,7 @@
 		"schema.nomination.officer2":"Funkcionár",
 		"schema.nomination.listOfPlayers":"Nominácia hráčov",
 		"schema.nomination.players":"Hráči",
+		"schema.nomination.player":"Hráč",
 		"schema.nomination.state":"Stav",
 
 		"schema.requests.title":"Žiadosť",
@@ -423,6 +425,7 @@
 		"schema.requests.basedata.status.processing":"Spracovávaná",
 		"schema.requests.basedata.status.closed":"Uzavretá",
 		"schema.requests.attachments":"Prílohy",
+		"schema.requests.file":"Súbor",
 		"schema.requests.basedata.responsetext":"Odpoveď",
 		"schema.requests.basedata.modifiedOn":"Čas poslednej zmeny",
 
@@ -831,6 +834,7 @@
 		"schema.refereeReport.listOfPlayersHome":"Zoznam hráčov - Domáci",
 		"schema.refereeReport.listOfPlayersGuest":"Zoznam hráčov - Hostia",
 		"schema.refereeReport.listOfPlayers.players":"Hráči",
+		"schema.refereeReport.listOfPlayers.player":"Hráč",
 		
 		"schema.nomination.title":"Nominácia",
 		"schema.nomination.listFields.match":"Stretnutie",
@@ -845,6 +849,7 @@
 		"schema.nomination.officer2":"Funkcionár",
 		"schema.nomination.listOfPlayers":"Nominácia hráčov",
 		"schema.nomination.players":"Hráči",
+		"schema.nomination.player":"Hráč",
 		"schema.nomination.state":"Stav",
 
 		"schema.requests.title":"Žádost",
@@ -860,6 +865,7 @@
 		"schema.requests.basedata.status.processing":"Spracovávaná",
 		"schema.requests.basedata.status.closed":"Uzavretá",
 		"schema.requests.attachments":"Přílohy",
+		"schema.requests.file":"Soubor",
 		"schema.requests.basedata.responsetext":"Odpověď",
 		"schema.requests.basedata.modifiedOn":"Čas poslednej zmeny",
 
